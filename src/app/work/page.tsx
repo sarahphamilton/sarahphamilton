@@ -1,0 +1,7 @@
+import type { Metadata } from "next";
+import { CaseStudyCard } from "@/components/CaseStudyCard";
+import { caseStudies, roadmap } from "@/content/site";
+
+export const metadata: Metadata = { title: "Work", description: "Case studies showing Sarah Hamilton's approach to program and operations leadership." };
+
+export default function WorkPage(){return <main><section className="section"><div className="shell"><p className="eyebrow">Selected work</p><h1 className="mt-5 max-w-5xl font-serif text-[clamp(3.8rem,9vw,7rem)] leading-[.9] tracking-[-.06em]">The system behind the outcome.</h1><p className="mt-7 max-w-3xl text-xl leading-8 text-ink/60">How I diagnose friction, create structure, weigh tradeoffs, and help teams adopt a more reliable way of working.</p></div></section><section className="section border-y border-ink/10 bg-paper"><div className="shell grid gap-6">{caseStudies.map(study=><CaseStudyCard study={study} key={study.slug}/>)}</div></section><section className="section"><div className="shell"><div className="section-heading"><div><p className="eyebrow">Portfolio roadmap</p><h2>What I&apos;m building next.</h2></div><p>These artifacts will turn current learning into visible evidence of AI-enabled operating judgment.</p></div><div className="grid gap-4 md:grid-cols-3">{roadmap.map(item=><article className="card" key={item.title}><p className="eyebrow">{item.status}</p><h3 className="mt-4 font-serif text-2xl">{item.title}</h3><p className="mt-4 text-ink/60">{item.description}</p></article>)}</div></div></section></main>}
