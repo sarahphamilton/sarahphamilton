@@ -53,6 +53,7 @@ export const experience = [
 ];
 
 export const credentials = [
+  { name: "Google Project Management Certificate", detail: "Google · Completed" },
   { name: "PMP Certification", detail: "In progress" },
   { name: "Agentic AI Foundations Certificate", detail: "Harvard Online · Planned" },
   {
