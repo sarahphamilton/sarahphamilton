@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <div className="shell"><div className="section-heading"><div><p className="eyebrow">Experience</p><h2>A career built around making work work.</h2></div><Link className="button button-outline" href="/resume">Full résumé</Link></div><div className="divide-y divide-ink/10 border-y border-ink/10">{experience.map((item) => <article className="grid gap-3 py-7 md:grid-cols-[150px_1fr_1.25fr] md:gap-8" key={item.role}><p className="text-sm font-bold text-coral">{item.years}</p><div><h3 className="font-serif text-xl">{item.role}</h3><p className="mt-1 text-sm font-semibold text-ink/50">{item.company}</p></div><p className="text-ink/65">{item.summary}</p></article>)}</div></div>
+        <div className="shell"><div className="section-heading"><div><p className="eyebrow">Experience</p><h2>A career built around making work work.</h2></div><Link className="button button-outline whitespace-nowrap" href="/resume">Full résumé</Link></div><div className="divide-y divide-ink/10 border-y border-ink/10">{experience.map((item) => <article className="grid gap-3 py-7 md:grid-cols-[150px_1fr_1.25fr] md:gap-8" key={item.role}><p className="text-sm font-bold text-coral">{item.years}</p><div><h3 className="font-serif text-xl">{item.role}</h3><p className="mt-1 text-sm font-semibold text-ink/50">{item.company}</p></div><p className="text-ink/65">{item.summary}</p></article>)}</div></div>
       </section>
 
       <section className="section bg-ink text-ivory">
