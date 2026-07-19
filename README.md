@@ -36,6 +36,6 @@ npm run build
 3. Netlify detects Next.js. Use build command `npm run build` and publish directory `.next` if they are not populated automatically.
 4. Deploy the site.
 5. In **Domain management**, add `sarahhamilton.work` and follow Netlify's DNS instructions.
-6. In **Forms**, enable form detection, then redeploy once so the contact form is registered.
+6. In **Forms**, enable form detection. The static `public/__forms.html` file registers the form during deployment; the visible Next.js form submits to that static endpoint.
 
 Netlify's current Next.js adapter is applied automatically at build time; no legacy plugin is pinned in this project.
