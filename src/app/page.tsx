@@ -31,7 +31,7 @@ export default function Home() {
         <div className="shell">
           <div className="section-heading"><div><p className="eyebrow">Selected impact</p><h2>Systems that move outcomes.</h2></div><p>Across education, entrepreneurship, and customer operations, I build the structure that helps people move from intention to reliable execution.</p></div>
           <div className="grid overflow-hidden rounded-3xl border border-ink/10 bg-ivory sm:grid-cols-2 lg:grid-cols-4">
-            {metrics.map((metric) => <div className="min-h-48 border-b border-ink/10 p-7 last:border-b-0 sm:border-r lg:border-b-0" key={metric.value}><strong className="font-serif text-3xl text-sage-deep">{metric.value}</strong><p className="mt-4 text-sm leading-6 text-ink/60">{metric.label}</p></div>)}
+            {metrics.map((metric) => <div className="min-h-48 border-b border-ink/10 p-7 last:border-b-0 sm:border-r lg:border-b-0" key={metric.value}><strong className="font-sans text-3xl font-semibold tracking-tight text-sage-deep">{metric.value}</strong><p className="mt-4 text-sm leading-6 text-ink/60">{metric.label}</p></div>)}
           </div>
         </div>
       </section>
