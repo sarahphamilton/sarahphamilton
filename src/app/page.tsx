@@ -9,7 +9,7 @@ export default function Home() {
       <section className="overflow-hidden py-16 sm:py-24 lg:py-28">
         <div className="shell grid items-center gap-14 lg:grid-cols-[1.12fr_.88fr] lg:gap-20">
           <div>
-            <p className="eyebrow">Program · Strategy · Operations · AI Transformation</p>
+            <p className="eyebrow">Program · Strategy · Operations · AI-Assisted Workflow Improvement</p>
             <h1 className="mt-5 max-w-4xl font-serif text-[clamp(4rem,9vw,7.8rem)] leading-[.85] tracking-[-.065em]">
               Complex work.<br/><span className="text-coral">Simple systems.</span>
             </h1>
@@ -32,6 +32,26 @@ export default function Home() {
           <div className="section-heading"><div><p className="eyebrow">Selected impact</p><h2>Systems that move outcomes.</h2></div><p>Across education, entrepreneurship, and customer operations, I build the structure that helps people move from intention to reliable execution.</p></div>
           <div className="grid overflow-hidden rounded-3xl border border-ink/10 bg-ivory sm:grid-cols-2 lg:grid-cols-4">
             {metrics.map((metric) => <div className="min-h-48 border-b border-ink/10 p-7 last:border-b-0 sm:border-r lg:border-b-0" key={metric.value}><strong className="font-sans text-3xl font-semibold tracking-tight text-sage-deep">{metric.value}</strong><p className="mt-4 text-sm leading-6 text-ink/60">{metric.label}</p></div>)}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-heading"><div><p className="eyebrow">Choose your path</p><h2>Two ways to work together.</h2></div><p>The same operating judgment, applied to the needs of a team or a growing business.</p></div>
+          <div className="grid gap-5 md:grid-cols-2">
+            <article className="card flex flex-col items-start">
+              <p className="eyebrow">For employers</p>
+              <h3 className="mt-4 font-serif text-3xl">Leadership that turns complexity into execution.</h3>
+              <p className="mt-4 flex-1 text-ink/65">Explore Sarah&apos;s experience leading programs, improving operations, implementing systems, and coordinating complex work.</p>
+              <Link className="button button-outline mt-7" href="/work">View my work</Link>
+            </article>
+            <article className="card flex flex-col items-start">
+              <p className="eyebrow">For business owners</p>
+              <h3 className="mt-4 font-serif text-3xl">Operations that do not depend on you.</h3>
+              <p className="mt-4 flex-1 text-ink/65">Get help replacing owner-dependent, manual operations with clear workflows, documentation, practical automation, and performance tracking.</p>
+              <Link className="button button-coral mt-7" href="/consulting">Explore consulting</Link>
+            </article>
           </div>
         </div>
       </section>
