@@ -5,9 +5,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sarahhamilton.work"),
-  title: { default: "Sarah Hamilton | Program & Operations Leader", template: "%s | Sarah Hamilton" },
-  description: "Sarah Hamilton makes complicated organizations easier to run through clear systems, aligned teams, and measurable execution.",
-  openGraph: { title: "Sarah Hamilton | Complex work. Simple systems.", description: "Program, strategy, operations, implementation, and AI-assisted workflow improvement.", url: "https://sarahhamilton.work", siteName: "Sarah Hamilton", images: [{ url: "/sarah-hamilton-headshot.jpg", width: 900, height: 1125 }], type: "website" },
+  title: { default: "Sarah Hamilton | Program & Operations Manager", template: "%s | Sarah Hamilton" },
+  description: "Sarah Hamilton finds operational friction, builds the system, aligns the people, and measurably improves execution.",
+  openGraph: { title: "Sarah Hamilton | Complex work. Simple systems.", description: "Program management, implementation, operations, customer operations, and enablement.", url: "https://sarahhamilton.work", siteName: "Sarah Hamilton", images: [{ url: "/sarah-hamilton-headshot.jpg", width: 900, height: 1125 }], type: "website" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
