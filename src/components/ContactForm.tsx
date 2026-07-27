@@ -41,6 +41,16 @@ export function ContactForm() {
         <input className="rounded-xl border border-ink/15 bg-white px-4 py-3 font-normal outline-none focus:border-coral" type="email" name="email" autoComplete="email" required />
       </label>
       <label className="grid gap-2 text-sm font-bold">
+        Inquiry type
+        <select className="rounded-xl border border-ink/15 bg-white px-4 py-3 font-normal outline-none focus:border-coral" name="inquiry-type" defaultValue="" required>
+          <option value="" disabled>Select one</option>
+          <option value="Hiring for a role">Hiring for a role</option>
+          <option value="Consulting support">Consulting support</option>
+          <option value="Speaking or collaboration">Speaking or collaboration</option>
+          <option value="Something else">Something else</option>
+        </select>
+      </label>
+      <label className="grid gap-2 text-sm font-bold">
         Message
         <textarea className="min-h-40 resize-y rounded-xl border border-ink/15 bg-white px-4 py-3 font-normal outline-none focus:border-coral" name="message" required />
       </label>
