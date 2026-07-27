@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CaseStudyCard } from "@/components/CaseStudyCard";
-import { capabilities, caseStudies, credentials, experience, metrics, site } from "@/content/site";
+import { capabilityLanes, caseStudies, credentials, experience, metrics, site } from "@/content/site";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <section className="overflow-hidden py-16 sm:py-24 lg:py-28">
         <div className="shell grid items-center gap-14 lg:grid-cols-[1.12fr_.88fr] lg:gap-20">
           <div>
-            <p className="eyebrow">Program · Strategy · Operations · AI-Assisted Workflow Improvement</p>
+            <p className="eyebrow">Program Management · Implementation · Operations · Enablement</p>
             <h1 className="mt-5 max-w-4xl font-serif text-[clamp(4rem,9vw,7.8rem)] leading-[.85] tracking-[-.065em]">
               Complex work.<br/><span className="text-coral">Simple systems.</span>
             </h1>
@@ -38,12 +38,12 @@ export default function Home() {
 
       <section className="section">
         <div className="shell">
-          <div className="section-heading"><div><p className="eyebrow">Choose your path</p><h2>Two ways to work together.</h2></div><p>The same operating judgment, applied to the needs of a team or a growing business.</p></div>
-          <div className="grid gap-5 md:grid-cols-2">
-            <article className="card flex flex-col items-start">
+          <div className="section-heading"><div><p className="eyebrow">Work with Sarah</p><h2>Ready for the next full-time challenge.</h2></div><p>Consulting is available selectively; the primary focus is joining a team where strong execution matters.</p></div>
+          <div className="grid gap-5 md:grid-cols-[1.35fr_.65fr]">
+            <article className="card flex flex-col items-start border-coral/25">
               <p className="eyebrow">For employers</p>
-              <h3 className="mt-4 font-serif text-3xl">Leadership that turns complexity into execution.</h3>
-              <p className="mt-4 flex-1 text-ink/65">Explore Sarah&apos;s experience leading programs, improving operations, implementing systems, and coordinating complex work.</p>
+              <h3 className="mt-4 font-serif text-3xl">Program, implementation, operations, customer operations, and enablement leadership.</h3>
+              <p className="mt-4 flex-1 text-ink/65">Explore experience leading programs, improving operations, implementing systems, coordinating complex work, and helping people adopt new ways of working.</p>
               <Link className="button button-outline mt-7" href="/work">View my work</Link>
             </article>
             <article className="card flex flex-col items-start">
@@ -58,8 +58,8 @@ export default function Home() {
 
       <section className="section">
         <div className="shell grid gap-12 lg:grid-cols-[.78fr_1.22fr] lg:gap-20">
-          <div><p className="eyebrow">How I work</p><h2>Clarity is an operating advantage.</h2><p className="mt-6 text-lg leading-8 text-ink/60">I bring analytical judgment, calm leadership, and practical systems thinking to work that crosses teams, tools, and priorities.</p></div>
-          <div className="grid gap-3 sm:grid-cols-2">{capabilities.map((item) => <div className="rounded-2xl border border-ink/10 bg-paper p-5 font-bold" key={item}>{item}</div>)}</div>
+          <div><p className="eyebrow">How I work</p><h2>Three connected ways I improve execution.</h2><p className="mt-6 text-lg leading-8 text-ink/60">I bring operational judgment, calm leadership, and practical systems thinking to work that crosses teams, tools, and priorities.</p></div>
+          <div className="grid gap-4">{capabilityLanes.map((lane) => <article className="card" key={lane.title}><h3 className="font-serif text-2xl">{lane.title}</h3><p className="mt-3 text-sm leading-6 text-ink/60">{lane.skills.join(" · ")}</p></article>)}</div>
         </div>
       </section>
 
@@ -72,7 +72,7 @@ export default function Home() {
       </section>
 
       <section className="section bg-ink text-ivory">
-        <div className="shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20"><div><p className="eyebrow text-coral-light">Professional development</p><h2>Building toward what&apos;s next.</h2></div><div className="grid gap-3">{credentials.map((item) => <div className="flex flex-col justify-between gap-2 rounded-2xl border border-ivory/15 p-5 sm:flex-row sm:items-center" key={item.name}><h3 className="font-serif text-xl">{item.name}</h3><p className="text-sm font-bold uppercase tracking-wider text-coral-light">{item.detail}</p></div>)}</div></div>
+        <div className="shell grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20"><div><p className="eyebrow text-coral-light">Credentials</p><h2>Completed foundations. Active learning.</h2></div><div className="grid gap-3">{credentials.map((item) => <div className="flex flex-col justify-between gap-2 rounded-2xl border border-ivory/15 p-5 sm:flex-row sm:items-center" key={item.name}><h3 className="font-serif text-xl">{item.name}</h3><p className="text-sm font-bold uppercase tracking-wider text-coral-light">{item.detail}</p></div>)}</div></div>
       </section>
 
       <section className="section"><div className="shell rounded-[2.25rem] bg-coral px-7 py-14 text-center text-white sm:px-14"><p className="eyebrow text-white/80">Let&apos;s work together</p><h2 className="mx-auto mt-3 max-w-3xl">Need someone who can turn complexity into execution?</h2><div className="mt-8 flex flex-wrap justify-center gap-3"><Link className="button bg-ink text-white" href="/contact">Start a conversation</Link><a className="button border border-white/50 bg-transparent text-white" href={site.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></div></div></section>
