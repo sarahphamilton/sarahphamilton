@@ -4,6 +4,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/work", "/consulting", "/resume", "/contact"];
   return routes.map((route) => ({
     url: `https://sarahhamilton.work${route}`,
-    lastModified: new Date(),
+    lastModified: new Date("2026-08-02"),
   }));
 }
