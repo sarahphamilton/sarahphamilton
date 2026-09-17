@@ -11,7 +11,7 @@ export const site = {
 };
 
 export const metrics = [
-  { value: "79 points", label: "Improvement in a key program outcome" },
+  { value: "78 percentage points", label: "Improvement in standardized readiness benchmarks" },
   { value: "3×", label: "Revenue growth while moving the business from deficit to approximately 60% profit" },
   { value: "48 hrs → minutes", label: "Customer onboarding reduced through workflow automation" },
   { value: "800+", label: "Customers served, with 250 recurring customers at peak" },
@@ -29,7 +29,7 @@ export const experience = [
     role: "Learning Program Lead / Montessori Guide",
     company: "Bezos Academy",
     summary:
-      "Led daily program operations, coordinated three classroom assistants and 50+ stakeholders, and used visible performance systems to improve a key readiness outcome by 79 points.",
+      "Led daily program operations, coordinated three classroom assistants and 50+ stakeholders, and used visible performance systems to improve standardized readiness benchmarks from 11% to 89%.",
   },
   {
     years: "2020–2023",
@@ -91,7 +91,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Performance information existed, but it did not consistently translate into prioritized interventions, team ownership, or stakeholder clarity.",
     result:
-      "A repeatable tracking, planning, and coaching cadence helped move readiness-assessment outcomes from 13% to 92%.",
+      "A repeatable tracking, planning, and coaching cadence helped improve standardized readiness benchmarks from 11% to 89%—a 78-percentage-point increase.",
     tags: ["Analytics", "Operating cadence", "Team enablement"],
     thinking: [
       { label: "Why this mattered", text: "Data without an operating rhythm documents a problem; it does not change the result." },

@@ -38,7 +38,7 @@ const proof = [
   { value: "$35K → $105K", label: "Annual revenue growth in a service operation" },
   { value: "2 days → minutes", label: "Customer onboarding reduced through automation" },
   { value: "800+", label: "Clients supported, including 250+ recurring clients" },
-  { value: "13% → 92%", label: "Organizational readiness improved through data-guided execution" },
+  { value: "11% → 89%", label: "Standardized readiness benchmarks improved through data-guided execution" },
 ];
 
 export default function ConsultingPage() {
