@@ -32,11 +32,11 @@ export const experience = [
       "Led daily program operations, coordinated three classroom assistants and 50+ stakeholders, and used visible performance systems to improve standardized readiness benchmarks from 11% to 89%.",
   },
   {
-    years: "2020–2023",
-    role: "Founder & Director of Operations",
+    years: "2020–2024",
+    role: "Founder & Operations Lead",
     company: "Brothers In Lawn",
     summary:
-      "Built a subscription service operation serving 800+ unique clients, grew annual revenue from $35K to $105K, and automated customer onboarding from roughly two days to minutes.",
+      "Built a subscription service operation serving 800+ unique customers, standardized delivery, and reduced intake and booking from a manual 1–2 day process to a single customer session.",
   },
   {
     years: "2012–2022",
@@ -51,10 +51,6 @@ export const credentials = [
   { name: "Google Project Management Certificate", detail: "Google · Completed" },
   { name: "SQL Basic Certificate", detail: "HackerRank · Completed" },
   { name: "PMP Certification", detail: "Exam scheduled Oct. 20, 2026" },
-  {
-    name: "Data Analysis with SQL, Excel & Power BI Specialization",
-    detail: "Microsoft",
-  },
 ];
 
 export type CaseStudy = {
