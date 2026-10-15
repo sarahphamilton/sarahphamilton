@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const links = [
   ["/", "Home"],
-  ["/work", "Work"],
-  ["/consulting", "Consulting"],
+  ["/#work-samples", "Work samples"],
   ["/resume", "Résumé"],
   ["/contact", "Contact"],
 ];
@@ -18,7 +17,7 @@ export function Header() {
         <nav className="hidden items-center gap-7 text-sm font-semibold text-ink/70 md:flex" aria-label="Primary navigation">
           {links.map(([href, label]) => <Link className="transition hover:text-coral" href={href} key={href}>{label}</Link>)}
         </nav>
-        <Link className="button button-coral hidden sm:inline-flex" href="/contact">Let&apos;s talk</Link>
+        <a className="button button-coral hidden sm:inline-flex" href="/Sarah-Hamilton-Resume.pdf" download>Download résumé</a>
         <details className="relative md:hidden">
           <summary className="cursor-pointer list-none rounded-full border border-ink/15 px-4 py-2 text-sm font-bold">Menu</summary>
           <nav className="absolute right-0 top-12 grid min-w-44 gap-1 rounded-2xl border border-ink/10 bg-paper p-3 shadow-xl" aria-label="Mobile navigation">
