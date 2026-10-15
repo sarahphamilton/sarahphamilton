@@ -1,13 +1,13 @@
 export const site = {
   name: "Sarah Hamilton",
-  role: "Program & Operations Manager",
-  tagline: "Complex work. Simple systems.",
+  role: "Implementation Program Manager",
+  tagline: "Planning through rollout, adoption, and improvement.",
   email: "sprich08@gmail.com",
   linkedin: "https://www.linkedin.com/in/sarahphamilton/",
   calendly: "https://calendly.com/sprich08",
   location: "Houston, Texas · Open to remote opportunities",
   intro:
-    "I find operational friction, build the system, align the people, and measurably improve execution.",
+    "I lead people- and process-centered implementations from planning through rollout, adoption, training, and continuous improvement.",
 };
 
 export const metrics = [
@@ -50,7 +50,7 @@ export const experience = [
 export const credentials = [
   { name: "Google Project Management Certificate", detail: "Google · Completed" },
   { name: "SQL Basic Certificate", detail: "HackerRank · Completed" },
-  { name: "PMP Certification", detail: "Target Sept 2026" },
+  { name: "PMP Certification", detail: "Exam scheduled Oct. 20, 2026" },
   {
     name: "Data Analysis with SQL, Excel & Power BI Specialization",
     detail: "Microsoft",
