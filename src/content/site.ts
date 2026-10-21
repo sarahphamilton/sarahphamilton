@@ -53,6 +53,26 @@ export const credentials = [
   { name: "Project Management Professional (PMP)®", detail: "PMI · Earned Oct. 2026" },
 ];
 
+export const recommendations = [
+  {
+    quote:
+      "Ms. Hamilton was invited to join the organization’s nationwide committee to assess the development and implementation of the instructional data gathering and evaluation application.",
+    name: "Dr. Carola J. Stead",
+    relationship: "Former Head of School · Direct supervisor for two years",
+  },
+  {
+    quote: "Many of Sarah’s colleagues frequently seek her out for ideas and guidance.",
+    name: "Debra Fischer",
+    relationship: "Former Director · Direct supervisor for more than five years",
+  },
+  {
+    quote:
+      "Sarah has consistently demonstrated strong leadership qualities, sound judgment, and a thoughtful approach to solving complex challenges.",
+    name: "Raechel Mozer",
+    relationship: "PMI mentor · Product Manager, Technology Training & Curriculum",
+  },
+];
+
 export type CaseStudy = {
   slug: string;
   type: string;
