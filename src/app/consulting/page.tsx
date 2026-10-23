@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Operations consulting for founder-led service businesses that need clearer workflows, stronger onboarding, practical automation, documented processes, and better performance visibility.",
   alternates: { canonical: "/consulting" },
+  robots: { index: false, follow: true },
   openGraph: { url: "/consulting" },
 };
 
