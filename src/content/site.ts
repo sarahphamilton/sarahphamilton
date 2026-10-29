@@ -11,9 +11,9 @@ export const site = {
 };
 
 export const metrics = [
-  { value: "78 percentage points", label: "Improvement in standardized readiness benchmarks" },
-  { value: "3×", label: "Revenue growth while moving the business from deficit to approximately 60% profit" },
-  { value: "48 hrs → minutes", label: "Customer onboarding reduced through workflow automation" },
+
+  { value: "200%", label: "Annual revenue growth; operating margin improved from deficit to approximately 60%" },
+  { value: "1–2 days → one session", label: "Customer intake and booking streamlined through connected workflows" },
   { value: "800+", label: "Customers served, with 250 recurring customers at peak" },
 ];
 
@@ -29,7 +29,7 @@ export const experience = [
     role: "Learning Program Lead / Montessori Guide",
     company: "Bezos Academy",
     summary:
-      "Led daily program operations, coordinated three classroom assistants and 50+ stakeholders, and used visible performance systems to improve standardized readiness benchmarks from 11% to 89%.",
+      "Led daily program operations, coordinated three classroom assistants and 50+ stakeholders, and used visible performance systems to target interventions, clarify ownership, and communicate progress.",
   },
   {
     years: "2020–2024",
@@ -51,6 +51,7 @@ export const credentials = [
   { name: "Google Project Management Certificate", detail: "Google · Completed" },
   { name: "SQL Basic Certificate", detail: "HackerRank · Completed" },
   { name: "Project Management Professional (PMP)®", detail: "PMI · Earned Oct. 2026" },
+  { name: "American Board for Certification of Teacher Excellence (ABCTE), EC-6 certification", detail: "2018" },
 ];
 
 export const recommendations = [
@@ -87,11 +88,11 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "onboarding-automation",
     type: "Implementation & customer operations",
-    title: "From manual intake to near-instant onboarding",
+    title: "From manual intake to a single-session booking process",
     summary:
       "A growing service operation depended on slow, manual handoffs across intake, scheduling, and customer communication.",
     result:
-      "A connected website workflow reduced onboarding from roughly two days to 2–5 minutes while supporting a larger recurring-customer base.",
+      "Connected intake and scheduling tools reduced a manual one-to-two-day process to a single customer session while supporting a larger recurring-customer base.",
     tags: ["Workflow design", "Automation", "Customer experience"],
     thinking: [
       { label: "Why this mattered", text: "Growth was creating more administrative work at exactly the point when the operation needed speed and consistency." },
@@ -107,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Performance information existed, but it did not consistently translate into prioritized interventions, team ownership, or stakeholder clarity.",
     result:
-      "A repeatable tracking, planning, and coaching cadence helped improve standardized readiness benchmarks from 11% to 89%—a 78-percentage-point increase.",
+      "Used a repeatable tracking, intervention-planning, and team-coaching cadence to turn assessment information into targeted next steps and clearer ownership.",
     tags: ["Analytics", "Operating cadence", "Team enablement"],
     thinking: [
       { label: "Why this mattered", text: "Data without an operating rhythm documents a problem; it does not change the result." },
@@ -123,7 +124,7 @@ export const caseStudies: CaseStudy[] = [
     summary:
       "Revenue growth was not enough; the business needed repeatable delivery, stronger vendor economics, and clear controls for quality and customer communication.",
     result:
-      "Annual revenue grew from $35K to $105K, while operating margin moved from deficit to approximately 60% profit.",
+      "Annual business revenue grew 200%, while operating margin improved from deficit to approximately 60%.",
     tags: ["Operations", "SOPs", "Resource optimization"],
     thinking: [
       { label: "Why this mattered", text: "A service business can grow itself into instability when revenue, capacity, and delivery standards are not managed together." },
