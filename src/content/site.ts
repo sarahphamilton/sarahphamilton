@@ -48,10 +48,10 @@ export const experience = [
 ];
 
 export const credentials = [
-  { name: "Project Management Professional (PMP)®", detail: "Project Management Institute" },
+  { name: "Project Management Professional Certification (PMP)", detail: "Project Management Institute" },
   { name: "Google Project Management Certificate", detail: "Google" },
-  { name: "SQL Basic Certificate", detail: "HackerRank" },
-  { name: "EC-6 Certification", detail: "American Board for Certification of Teacher Excellence" },
+  { name: "Elementary Education (EC–6) Certification", detail: "American Board for Certification of Teacher Excellence" },
+  { name: "Montessori Early Childhood", detail: "Montessori Accreditation Council for Teacher Education" },
 ];
 
 export const recommendations = [
