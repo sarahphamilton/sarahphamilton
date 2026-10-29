@@ -50,7 +50,8 @@ export const experience = [
 export const credentials = [
   { name: "Google Project Management Certificate", detail: "Google · Completed" },
   { name: "SQL Basic Certificate", detail: "HackerRank · Completed" },
-  { name: "Project Management Professional (PMP)®", detail: "PMI · Earned Oct. 2026" },\n  { name: "American Board for Certification of Teacher Excellence (ABCTE), EC-6 certification", detail: "2018" },
+  { name: "Project Management Professional (PMP)®", detail: "PMI · Earned Oct. 2026" },
+  { name: "American Board for Certification of Teacher Excellence (ABCTE), EC-6 certification", detail: "2018" },
 ];
 
 export const recommendations = [
